@@ -24,6 +24,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatIconModule} from '@angular/material/icon';
+import { AddStudentComponent } from './components/student/add-student/add-student.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import {MatIconModule} from '@angular/material/icon';
     HomeComponent,
     TeacherComponent,
     StudentComponent,
-    AddTeacherComponent
+    AddTeacherComponent,
+    AddStudentComponent
     
   ],
   imports: [
@@ -53,7 +55,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatNativeDateModule,
     MatTableModule,
     MatPaginatorModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule
     
   ],
   providers: [],
