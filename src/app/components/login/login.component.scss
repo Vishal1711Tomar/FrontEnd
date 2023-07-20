@@ -1,6 +1,11 @@
 .outer{
-    height: 100vh;
-    background: linear-gradient(to left, #a802e0 , #f7676a ) no-repeat;
+   // background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,158,136,0.9808298319327731) 9%, rgba(0,212,255,1) 100%);
+  background-image: url("https://img.freepik.com/free-vector/computer-login-concept-illustration_114360-7892.jpg?w=740&t=st=1689827936~exp=1689828536~hmac=4cbf91d80565021489ffcc795fa0c6c31a3e951359220f428010b21f470303c7");
+  height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+   margin-top: auto;
+    background-position: center;
 }
 
 .panel-heading{

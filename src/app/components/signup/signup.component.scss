@@ -1,6 +1,18 @@
-.outer{
+.bg{ 
+    background-image: url("https://img.freepik.com/free-vector/distance-learning-infographic-concept_1284-17948.jpg?w=826&t=st=1689828676~exp=1689829276~hmac=e8bb8329e8c324c25bc96132be370d2a413bce6cabada2aa69e8e518119bdf75");
     height: 100vh;
-    background: linear-gradient(to left, #a802e0 , #f7676a ) no-repeat;
+    width: 100vw;
+    background-repeat: no-repeat;
+    margin-top: auto;
+   // background-position: center;
+   background-size: cover;
+ }
+
+.outer{
+ // height: 100vh;
+   
+  //background: linear-gradient(to left, #a802e0 , #f7676a ) no-repeat;
+
 }
 
 .panel-heading{
@@ -35,6 +47,7 @@ a:hover{
     box-shadow: 20px 20px 80px rgb(218, 218, 218);
     border-radius: 12px;
     margin-top: 100px;
+   
 }
 
 .input-field{
@@ -48,7 +61,7 @@ a:hover{
 }
 
 .input-field.error{
-    border: 1px solid red;
+    border: 1px solid red;      
     color: red;
 }
 

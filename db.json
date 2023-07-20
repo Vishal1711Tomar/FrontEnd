@@ -24,6 +24,15 @@
       "dob": "2023-07-03T18:30:00.000Z",
       "salary": "12000",
       "department": "Cse",
+      "id": 4
+    },
+    {
+      "firstName": "Vishal",
+      "lastName": "Tomar",
+      "email": "abc@gmail.com",
+      "dob": "2023-07-03T18:30:00.000Z",
+      "salary": "12500",
+      "department": "IT",
       "id": 5
     },
     {
@@ -36,13 +45,13 @@
       "id": 6
     },
     {
-      "firstName": "Yuvraj",
-      "lastName": "Khanna",
-      "email": "ac@gmail.com",
+      "firstName": "Vishal",
+      "lastName": "Tomar",
+      "email": "ngncv",
       "dob": "2023-07-20T18:30:00.000Z",
-      "salary": "23444",
-      "department": "IT",
-      "id": 7
+      "salary": "25420",
+      "department": "gdbhb ",
+      "id": 8
     }
   ],
   "student": [
