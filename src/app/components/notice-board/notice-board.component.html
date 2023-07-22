@@ -1,0 +1,22 @@
+<div class="noticeWrapper">
+    <div *ngFor="let notice of notices; let i = index" class="costum" >
+      <mat-card  (click)="openNoticeDialog(notice)">
+        <mat-card-title class="notice_title">{{ notice.title }}</mat-card-title>
+        <mat-card-content>{{ notice.content }}</mat-card-content>
+      </mat-card>
+      <!-- {{notice.title}}
+      {{notices}} -->
+    </div>
+    
+    <ng-container matColumnDef="action">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
+      <td mat-cell *matCellDef="let row"> 
+        <button mat-icon-button color="primary">
+          <mat-icon>edit</mat-icon>
+        </button>     
+        <button mat-icon-button color="warn" (click)="deleteNotice(row.id)">
+          <mat-icon>delete</mat-icon>
+        </button>    
+      </td>
+    </ng-container>
+</div>

@@ -1,0 +1,15 @@
+<mat-card class="notice-container">
+    <h2>Add Notice</h2>
+    <form [formGroup]="noticeForm"(ngSubmit)="onSubmit()">
+      <mat-form-field class="form-group">
+        <mat-label>Title:</mat-label>
+        <input matInput type="text"  formControlName="title" required>
+      </mat-form-field>
+      <mat-form-field class="form-group">
+        <mat-label>Content:</mat-label>
+        <textarea matInput  formControlName="content" required></textarea>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit">Add Notice</button>
+    </form>
+  </mat-card>
+  <!-- <form [formGroup]="teacherForm" (ngSubmit)="onFormSubmit()"> -->

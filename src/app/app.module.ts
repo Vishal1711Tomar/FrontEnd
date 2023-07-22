@@ -25,6 +25,9 @@ import {MatTableModule} from '@angular/material/table';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatIconModule} from '@angular/material/icon';
 import { AddStudentComponent } from './components/student/add-student/add-student.component';
+import { NoticeBoardComponent } from './components/notice-board/notice-board.component';
+import { NoticedialogComponent } from './components/notice-board/noticedialog/noticedialog.component';
+import { AddNoticeComponent } from './components/add-notice/add-notice.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { AddStudentComponent } from './components/student/add-student/add-studen
     TeacherComponent,
     StudentComponent,
     AddTeacherComponent,
-    AddStudentComponent
+    AddStudentComponent,
+    NoticeBoardComponent,
+    NoticedialogComponent,
+    AddNoticeComponent
     
   ],
   imports: [

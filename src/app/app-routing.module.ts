@@ -5,6 +5,8 @@ import { SignupComponent } from './components/signup/signup.component';
 import { HomeComponent } from './components/home/home.component';
 import { TeacherComponent } from './components/teacher/teacher.component';
 import { StudentComponent } from './components/student/student.component';
+import { NoticeBoardComponent } from './components/notice-board/notice-board.component';
+import { AddNoticeComponent } from './components/add-notice/add-notice.component';
 
 
 const routes: Routes = [
@@ -22,7 +24,14 @@ const routes: Routes = [
   },
   {
     path:'student' , component:StudentComponent
+  },
+  {
+    path:'notice-board' , component:NoticeBoardComponent
+  },
+  {
+    path:'add-notice' ,component:AddNoticeComponent
   }
+
 ];
 
 @NgModule({

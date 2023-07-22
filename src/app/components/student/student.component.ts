@@ -57,7 +57,7 @@ export class StudentComponent implements OnInit {
   deleteStudent(id:number){
      this._studentService.deleteStudent(id).subscribe({
       next:(res) =>{
-         alert("delete teacher");
+         alert("delete student");
          this.getAllStudents();
       },
       error:(err) =>{
