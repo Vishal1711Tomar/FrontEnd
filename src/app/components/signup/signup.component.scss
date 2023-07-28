@@ -1,5 +1,5 @@
 .bg{ 
-    background-image: url("https://img.freepik.com/free-vector/distance-learning-infographic-concept_1284-17948.jpg?w=826&t=st=1689828676~exp=1689829276~hmac=e8bb8329e8c324c25bc96132be370d2a413bce6cabada2aa69e8e518119bdf75");
+  //  background-image: url("https://img.freepik.com/free-vector/distance-learning-infographic-concept_1284-17948.jpg?w=826&t=st=1689828676~exp=1689829276~hmac=e8bb8329e8c324c25bc96132be370d2a413bce6cabada2aa69e8e518119bdf75");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -13,6 +13,11 @@
    
   //background: linear-gradient(to left, #a802e0 , #f7676a ) no-repeat;
 
+}
+.imgbox{
+    height: 200px;
+    width: 200px;
+    position: relative;;
 }
 
 .panel-heading{

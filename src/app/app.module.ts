@@ -29,6 +29,11 @@ import { NoticeBoardComponent } from './components/notice-board/notice-board.com
 import { NoticedialogComponent } from './components/notice-board/noticedialog/noticedialog.component';
 import { AddNoticeComponent } from './components/add-notice/add-notice.component';
 
+import {FormsModule} from '@angular/forms';
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,6 +47,9 @@ import { AddNoticeComponent } from './components/add-notice/add-notice.component
     NoticeBoardComponent,
     NoticedialogComponent,
     AddNoticeComponent
+ 
+  
+    
     
   ],
   imports: [
@@ -62,7 +70,8 @@ import { AddNoticeComponent } from './components/add-notice/add-notice.component
     MatTableModule,
     MatPaginatorModule,
     MatIconModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    FormsModule
     
   ],
   providers: [],

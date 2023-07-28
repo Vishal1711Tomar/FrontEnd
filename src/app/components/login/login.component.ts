@@ -9,12 +9,31 @@ import { AuthService } from 'src/app/services/auth.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent {
-  
+  email!: string;
+  password!: string;
+  message!: string;
+  // login() {
+  //   this.auth.checkCredentials(this.email, this.password).subscribe(
+  //     (data) => {
+  //       if (data.length > 0) {
+  //         this.message = 'Login successful!';
+  //         // Do something when login is successful, like navigating to a new page.
+  //       } else {
+  //         this.message = 'Invalid email or password';
+  //         // Do something when login fails, like displaying an error message.
+  //       }
+  //     },
+  //     (error) => {
+  //       console.error('Error:', error);
+  //       // Handle the error, e.g., display an error message to the user.
+  //     }
+  //   );
+  // }
   type: string = 'password';
   isText: boolean = false;
   eyeIcon: string = 'fa-eye-slash';
   loginForm!: FormGroup;
-
+  loginObj!: { UserName: string; Password: string; Role: string; };
   constructor(
     private fb: FormBuilder,
     private auth:AuthService
@@ -25,6 +44,7 @@ export class LoginComponent {
     this.loginForm = this.fb.group({
       email: ['', Validators.required],
       password: ['', Validators.required],
+     // Role:['', Validators.required],
     });
   }
   ngOnDestory():void {
@@ -43,10 +63,12 @@ export class LoginComponent {
         next: (res) => {
               alert(res.message);
       },
-      error: (err) => {
+      // error: (err) => {
       
-           alert(err);
-        },});
+      //      alert(err);
+      //   },
+      });
+
       // this.validateAllFormFields(this.loginForm);
       // alert("Your form valid");
       // this.auth.login(this.loginForm.value).subscribe({
@@ -92,7 +114,15 @@ export class LoginComponent {
 
       }
     })
-  }
+  } 
+  
+  // if(this.loginForm.userName == 'user123' && this.loginObj.password =='user@123') {
+  //    localStorage.setItem('role','user');
+  //    this.router.navigateByUrl('user-dashboard');
+  //    } else if (this.loginObj.userName == 'admin' && this.loginObj.password =='admin@123') {
+  //     localStorage.setItem('role','admin');
+  //     this.router.navigateByUrl('admin-dash');
+  //    }
   
 
-}
+    }

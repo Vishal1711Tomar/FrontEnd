@@ -17,8 +17,8 @@ export class SignupComponent {
     this.auth.setShowToolbar(false);
     this.signUpForm = this.fb.group({
       email:['', Validators.required],
-      Fname:['', Validators.required],
-      Lname:['', Validators.required],
+      fname:['', Validators.required],
+      lname:['', Validators.required],
       contact:['', Validators.required],
       dob:['', Validators.required],
       password:['', Validators.required]

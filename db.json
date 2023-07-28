@@ -90,6 +90,15 @@
       "salary": "100000",
       "department": "CSE AI ML",
       "id": 5
+    },
+    {
+      "firstName": "skdfjal;",
+      "lastName": "asfd",
+      "email": "sdaf",
+      "dob": "2023-07-21T18:30:00.000Z",
+      "salary": "sfd",
+      "department": "asfd",
+      "id": 6
     }
   ],
   "notice": [
@@ -167,6 +176,101 @@
       "title": "Project Completion",
       "content": "Bhai or unki behno 28 july 2023 tk project khtm krna hai to aache se shanti se krlo\n",
       "id": 15
+    },
+    {
+      "title": "Hello",
+      "content": "Db pr aaya",
+      "id": 16
+    },
+    {
+      "title": "ddjkvn kdnvkdnrfv",
+      "content": "vdfgvcvfgwergfs ",
+      "id": 17
+    },
+    {
+      "title": "fhnb fh",
+      "content": "xnygzb ntgry",
+      "id": 18
+    }
+  ],
+  "Register": [
+    {
+      "fname": "Vishal",
+      "lname": "Tomar",
+      "contact": "1234567891",
+      "dob": "2023-06-27",
+      "email": "vishaltomar@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "email": "fgjgfjh",
+      "fname": "nvnbvnv",
+      "lname": "ghjbnb",
+      "contact": "434211241",
+      "dob": "2023-07-18",
+      "password": "gvjjcjhgh",
+      "id": 2
+    },
+    {
+      "email": "43q",
+      "fname": "frqf",
+      "lname": "qef4q3d431",
+      "contact": "9999999999",
+      "dob": "2023-07-19",
+      "password": "fr45",
+      "id": 3
+    },
+    {
+      "email": "dfffffrgterd",
+      "fname": "recv zBGrtbfz gt",
+      "lname": "htrgbh gvzhbtrghb ",
+      "contact": "fdgdfv",
+      "dob": "2023-07-19",
+      "password": "fvbgtsdfv ",
+      "id": 4
+    }
+  ],
+  "User": [
+    {
+      "email": "vishaltomar2k23@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "email": "vishaltomar@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "email": "vishaltomar@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "email": "vishaltomar@gmail.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "email": "ytgb",
+      "password": "hgdyujn",
+      "id": 5
+    },
+    {
+      "email": "gzb ",
+      "password": "gbftzv ",
+      "id": 6
+    },
+    {
+      "email": "frdrg",
+      "password": "fvrge",
+      "id": 7
+    },
+    {
+      "email": "c vds",
+      "password": "d cx",
+      "id": 8
     }
   ]
 }
